@@ -1,0 +1,12 @@
+-- Notes on PERN stack video:
+--
+-- psql:
+-- for help \?
+--
+-- list database \l
+--
+-- Create database
+-- CREATE DATABASE database_name
+--
+-- connect to database:
+-- \c database_name
