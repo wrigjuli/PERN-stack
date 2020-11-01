@@ -30,7 +30,8 @@ npm install nodemon
 this combined with autosave in VS Code is very handy.  
 
 # shortcut
-after installing node.js
+after installing node.js from https://nodejs.org/en/
+in terminal in the server directory run:
 npm init -y
 npm install express
 npm install dotenv
@@ -52,6 +53,13 @@ I had trouble figuring out Postman at first, I had to uninstall and reinstall it
 To send POST,
 Select Body, Raw, JSON then do all the JSON manipulation in there.  
 
+PUT, GET, DELETE are similar.  
+Put the route which could be: 
+http://localhost:4000/api/v1/restaurants/123
+into the POST, PUT, GET, DELETE request in postman.  
+
+type json into the body, raw, json, make sure to use quotation marks on both the key and the value.  
+
 # Routes cheatsheet:
 Retrieve = GET
 Create = POST
@@ -60,3 +68,10 @@ Delete = DELETE
 
 :id goes at the end of the route for PUT, DELETE and POST
 
+# Connect Node with Postgres
+https://node-postgres.com/
+navigate to:
+Express with async/await
+
+to install postgres library:
+npm i pg
