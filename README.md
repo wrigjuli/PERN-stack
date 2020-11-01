@@ -30,13 +30,13 @@ npm install nodemon
 this combined with autosave in VS Code is very handy.  
 
 # shortcut
-after installing node.js from https://nodejs.org/en/
-in terminal in the server directory run:
-npm init -y
-npm install express
-npm install dotenv
-npm install nodemon
-npm i morgan
+after installing node.js from https://nodejs.org/en/  \
+in terminal in the server directory run:  \
+npm init -y  \
+npm install express  \
+npm install dotenv  \
+npm install nodemon  \
+npm i morgan  \
 
 # To see your routes in the browser:
 http://localhost:4000/getRestaurants
@@ -61,10 +61,10 @@ into the POST, PUT, GET, DELETE request in postman.
 type json into the body, raw, json, make sure to use quotation marks on both the key and the value.  
 
 # Routes cheatsheet:
-Retrieve = GET
-Create = POST
-Update = PUT
-Delete = DELETE
+Retrieve = GET \
+Create = POST \
+Update = PUT \
+Delete = DELETE \
 
 :id goes at the end of the route for PUT, DELETE and POST
 
