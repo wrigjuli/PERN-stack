@@ -36,7 +36,7 @@ npm init -y  \
 npm install express  \
 npm install dotenv  \
 npm install nodemon  \
-npm i morgan  \
+npm i morgan  
 
 # To see your routes in the browser:
 http://localhost:4000/getRestaurants
@@ -64,7 +64,7 @@ type json into the body, raw, json, make sure to use quotation marks on both the
 Retrieve = GET \
 Create = POST \
 Update = PUT \
-Delete = DELETE \
+Delete = DELETE 
 
 :id goes at the end of the route for PUT, DELETE and POST
 
@@ -75,3 +75,27 @@ Express with async/await
 
 to install postgres library:
 npm i pg
+
+# create routes
+see server.js for more info
+
+# install React in the client directory
+npm install create-react-app -g \
+create-react-app .  \
+install extension ES7 redux by searching for react  \
+in index.js type "imr" to import react  \
+imrd to import react dom.  \
+
+in client directory, run npm start to run client application.  
+
+# Bootstrap
+Copy bootstrap link from this website: \
+https://getbootstrap.com/docs/4.5/getting-started/introduction/
+
+# font awesome
+https://cdnjs.com/libraries/font-awesome
+
+# Routing in React
+npm install react-router-dom \
+add routes directory under src \
+create boiler plate code in Home.jsx by typing "rafce" and tab
