@@ -20,8 +20,10 @@ const RestaurantList = () => {
                     <td>New York</td>
                     <td>$$</td>
                     <td>Rating</td>
+                    <div>
                     <td><button className="btn btn-warning">Update</button></td>
                     <td><button className="btn warning">Delete</button></td>
+                    </div>
                 </tr>
             </tbody>
         </div>
